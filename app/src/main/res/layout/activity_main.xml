@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.perculacreative.peter.petersappportfolio.MainActivity">
-
-    <ScrollView
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.perculacreative.peter.petersappportfolio.MainActivity"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -27,46 +22,45 @@
                 android:textColor="@color/colorButton" />
 
             <Button
-                android:id="@+id/movies"
+                android:id="@+id/moviesButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/movies"
                 android:theme="@style/Button" />
 
             <Button
-                android:id="@+id/stock"
+                android:id="@+id/stockButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/stock"
                 android:theme="@style/Button" />
 
             <Button
-                android:id="@+id/buildbigger"
+                android:id="@+id/buildBiggerButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/buildbigger"
                 android:theme="@style/Button" />
 
             <Button
-                android:id="@+id/material"
+                android:id="@+id/materialButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/material"
                 android:theme="@style/Button" />
 
             <Button
-                android:id="@+id/ubiquitous"
+                android:id="@+id/ubiquitousButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/ubiquitous"
                 android:theme="@style/Button" />
 
             <Button
-                android:id="@+id/capstone"
+                android:id="@+id/capstoneButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/capstone"
                 android:theme="@style/Button" />
         </LinearLayout>
     </ScrollView>
-</LinearLayout>

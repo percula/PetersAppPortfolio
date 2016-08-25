@@ -8,6 +8,5 @@
     <string name="ubiquitous">Go Ubiquitous</string>
     <string name="capstone">Capstone</string>
 
-    <string name="toast_begin">This will open the "</string>
-    <string name="toast_end">" app.</string>
+    <string name="toast_message">This will open the %s app.</string>
 </resources>

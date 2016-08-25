@@ -13,64 +13,52 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button moviesButton = (Button) findViewById(R.id.movies);
-        Button stockButton = (Button) findViewById(R.id.stock);
-        Button buildBiggerButton = (Button) findViewById(R.id.buildbigger);
-        Button materialButton = (Button) findViewById(R.id.material);
-        Button ubiquitousButton = (Button) findViewById(R.id.ubiquitous);
-        Button capstoneButton = (Button) findViewById(R.id.capstone);
+        Button moviesButton = (Button) findViewById(R.id.moviesButton);
+        Button stockButton = (Button) findViewById(R.id.stockButton);
+        Button buildBiggerButton = (Button) findViewById(R.id.buildBiggerButton);
+        Button materialButton = (Button) findViewById(R.id.materialButton);
+        Button ubiquitousButton = (Button) findViewById(R.id.ubiquitousButton);
+        Button capstoneButton = (Button) findViewById(R.id.capstoneButton);
 
         moviesButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String message = getString(R.string.toast_begin) +
-                        ((Button) view).getText() +
-                        getString(R.string.toast_end);
-                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+                String message = String.format(getString(R.string.toast_message), ((Button) view).getText().toString());
+                Toast.makeText(view.getContext(), message, Toast.LENGTH_SHORT).show();
             }
         });
 
         stockButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String message = getString(R.string.toast_begin) +
-                        ((Button) view).getText() +
-                        getString(R.string.toast_end);
-                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+                String message = String.format(getString(R.string.toast_message), ((Button) view).getText().toString());
+                Toast.makeText(view.getContext(), message, Toast.LENGTH_SHORT).show();
             }
         });
 
         buildBiggerButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String message = getString(R.string.toast_begin) +
-                        ((Button) view).getText() +
-                        getString(R.string.toast_end);
-                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+                String message = String.format(getString(R.string.toast_message), ((Button) view).getText().toString());
+                Toast.makeText(view.getContext(), message, Toast.LENGTH_SHORT).show();
             }
         });
 
         materialButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String message = getString(R.string.toast_begin) +
-                        ((Button) view).getText() +
-                        getString(R.string.toast_end);
-                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+                String message = String.format(getString(R.string.toast_message), ((Button) view).getText().toString());
+                Toast.makeText(view.getContext(), message, Toast.LENGTH_SHORT).show();
             }
         });
 
         ubiquitousButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String message = getString(R.string.toast_begin) +
-                        ((Button) view).getText() +
-                        getString(R.string.toast_end);
-                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+                String message = String.format(getString(R.string.toast_message), ((Button) view).getText().toString());
+                Toast.makeText(view.getContext(), message, Toast.LENGTH_SHORT).show();
             }
         });
 
         capstoneButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                String message = getString(R.string.toast_begin) +
-                        ((Button) view).getText() +
-                        getString(R.string.toast_end);
-                Toast.makeText(getApplicationContext(), message, Toast.LENGTH_SHORT).show();
+                String message = String.format(getString(R.string.toast_message), ((Button) view).getText().toString());
+                Toast.makeText(view.getContext(), message, Toast.LENGTH_SHORT).show();
             }
         });
 
