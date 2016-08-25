@@ -3,59 +3,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     android:orientation="vertical"
     tools:context="com.perculacreative.peter.petersappportfolio.MainActivity">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="center_horizontal"
-        android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/header"
-            android:textAppearance="?android:textAppearanceMedium"
-            android:textColor="@color/colorButton"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="8dp"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/Button"
-            android:text="@string/movies"
-            android:id="@+id/movies"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/Button"
-            android:text="@string/stock"
-            android:id="@+id/stock"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/Button"
-            android:text="@string/buildbigger"
-            android:id="@+id/buildbigger"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/Button"
-            android:text="@string/material"
-            android:id="@+id/material"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/Button"
-            android:text="@string/ubiquitous"
-            android:id="@+id/ubiquitous"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:theme="@style/Button"
-            android:text="@string/capstone"
-            android:id="@+id/capstone"/>
-    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/header"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorButton" />
+
+            <Button
+                android:id="@+id/movies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/movies"
+                android:theme="@style/Button" />
+
+            <Button
+                android:id="@+id/stock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stock"
+                android:theme="@style/Button" />
+
+            <Button
+                android:id="@+id/buildbigger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buildbigger"
+                android:theme="@style/Button" />
+
+            <Button
+                android:id="@+id/material"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/material"
+                android:theme="@style/Button" />
+
+            <Button
+                android:id="@+id/ubiquitous"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ubiquitous"
+                android:theme="@style/Button" />
+
+            <Button
+                android:id="@+id/capstone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/capstone"
+                android:theme="@style/Button" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
