@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Peters App Portfolio</string>
+    <string name="app_name">My App Portfolio</string>
+    <string name="header">My Nanodegree Apps!</string>
+    <string name="movies">Popular Movies</string>
+    <string name="stock">Stock Hawk</string>
+    <string name="buildbigger">Build It Bigger</string>
+    <string name="material">Make Your App Material</string>
+    <string name="ubiquitous">Go Ubiquitous</string>
+    <string name="capstone">Capstone</string>
+
+    <string name="toast_begin">This will open the "</string>
+    <string name="toast_end">" app.</string>
 </resources>
